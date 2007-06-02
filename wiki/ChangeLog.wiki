@@ -1,7 +1,11 @@
 ==Version 1.1==
 June 2, 2007
 
-There was a very strange bug that crept in for Internet Explorer.  This update fixes that.
+There was a very strange bug that crept in for Internet Explorer.  Internet Explorer does not allow you to set the innerHTML property for "button" elements.  Therefore, it was necessary to change "but in" elements to "input" elements of type button.
+
+there was a change to the CSS file.  Anything applying styles to "button" elements has been changed to "input.button".  If you have a custom stylesheet, update accordingly.
+
+This update fixes that.
 
 ==Version 1.0==
 June 1, 2007
