@@ -2,3 +2,8 @@
 June 2, 2007
 
 There was a very strange bug that crept in for Internet Explorer.  This update fixes that.
+
+==Version 1.0==
+June 1, 2007
+
+Initial release!
