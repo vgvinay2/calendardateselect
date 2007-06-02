@@ -1,0 +1,4 @@
+==Version 1.1==
+June 2, 2007
+
+There was a very strange bug that crept in for Internet Explorer.  This update fixes that.
