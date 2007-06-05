@@ -5,6 +5,8 @@ June 4, 2007
 
   * Improved feel of pop-up dialog - when somewhere else clicked on the screen other than the popup calendar, popup calendar will automatically close.
 
+  * If the popup window won't fit on the screen underneath the control, will automatically position to the top.
+
 
 ==Version 1.1==
 June 2, 2007
@@ -17,5 +19,4 @@ June 2, 2007
 June 1, 2007
 
   * Initial release!
-
 
