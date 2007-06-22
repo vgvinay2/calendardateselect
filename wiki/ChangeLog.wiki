@@ -1,3 +1,13 @@
+==Version 1.5.1==
+
+June 21, 2007
+
+* Selecting dates in April 2007 doesn't highlight day
+
+* Selecting 29 February 2008 returns 1 March 2008
+
+* options[:format] needs to be purged
+
 ==Version 1.5==
 June 18, 2007
 
