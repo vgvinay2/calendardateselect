@@ -8,6 +8,8 @@ This is a quick guide on how to change the format of the date output by calendar
 
 = Details =
 
+_This is up to date as of July 5, 2007 for version 1.5.1._
+
 Right now, when using calendardateselect, the date is in the following format:  July 4, 2007.  While that format is very readable, it may not suit your website needs.  Perhaps you need the date in a more database friendly format like YYYY-MM-DD.  The following steps will show you how to do so.
 
 ===Step 1===
