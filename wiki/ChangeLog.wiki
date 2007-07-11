@@ -4,6 +4,7 @@
   * detects to see if prototype is loaded.  If not, shows error message
   * ability to hide "buttons"
   * date parsing broken out to static function Date.parseFormattedString() for anyone who wants date's to parse a different way from javascript
+  * you can no longer select 1:60 pm.
 
 ==Version 1.5.1==
 
