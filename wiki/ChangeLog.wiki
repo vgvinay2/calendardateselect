@@ -1,3 +1,10 @@
+==Version 1.5.2==
+
+  * onchange event handler
+  * detects to see if prototype is loaded.  If not, shows error message
+  * ability to hide "buttons"
+  * date parsing broken out to static function Date.parseFormattedString() for anyone who wants date's to parse a different way from javascript
+
 ==Version 1.5.1==
 
 June 21, 2007
@@ -57,4 +64,3 @@ June 2, 2007
 June 1, 2007
 
   * Initial release!
-
