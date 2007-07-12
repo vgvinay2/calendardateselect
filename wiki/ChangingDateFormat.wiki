@@ -8,40 +8,55 @@ This is a quick guide on how to change the format of the date output by calendar
 
 = Details =
 
-_This is up to date as of July 5, 2007 for version 1.5.1._
+_This is up to date as for version 1.5.2._
 
 Right now, when using calendardateselect, the date is in the following format:  July 4, 2007.  While that format is very readable, it may not suit your website needs.  Perhaps you need the date in a more database friendly format like YYYY-MM-DD.  The following steps will show you how to do so.
 
-===Step 1===
-Open up calendar_date_select.js
-
-===Step 2===
-Go down to line 31 and find the following code:
+===Step 1 - Formatting the date. ===
+Put the following code before rendering a calendar_date_select control.  We're going to over-ride the toFormattedString method that calendar date select uses.
 
 {{{
-Date.prototype.toFormattedString = function(include_time){
-  str = Date.months[this.getMonth()] + " " + this.getDate() + ", " + this.getFullYear();
-  
+<script type="text/javascript">
+  Date.prototype.toFormattedString = function(include_time){
+    str = this.getFullYear() + "-" + Date.padded2(this.getMonth() + 1) + "-" +Date.padded2(this.getDate()); 
+
   if (include_time) { hour=this.getHours(); str += " " + this.getAMPMHour() + ":" + this.getPaddedMinutes() + " " + this.getAMPM() }
   return str;
-} 
-}}}
+  }
+  
+  Date.parseFormattedString = function (string) {
+    var regexp = "([0-9]{4})(-([0-9]{2})(-([0-9]{2})" +
+        "( ([0-9]{1,2}):([0-9]{2})? *(pm|am)" +
+        "?)?)?)?";
+    var d = string.match(new RegExp(regexp, "i"));
+    var offset = 0;
+    var date = new Date(d[1], 0, 1);
+    if (d[3]) { date.setMonth(d[3] - 1); }
+    if (d[5]) { date.setDate(d[5]); }
+    if (d[7]) {
+      hours = parseInt(d[7]);
+      offset=0;
+      is_pm = (d[9].toLowerCase()=="pm")
+      if (is_pm && hours <= 11) hours+=12;
+      if (!is_pm && hours == 12) hours=0;
+      console.log(d);
 
-This is the method that sets the format of the date.
+      date.setHours(hours); 
+      
+    }
+    if (d[8]) { date.setMinutes(d[8]); }
+    if (d[10]) { date.setSeconds(d[10]); }
+    if (d[12]) { date.setMilliseconds(Number("0." + d[12]) * 1000); }
+    if (d[14]) {
+        offset = (Number(d[16]) * 60) + Number(d[17]);
+        offset *= ((d[15] == '-') ? 1 : -1);
+    }
 
-===Step 3===
-Comment out the second line, so you have it for future reference.
+    return date;
+  }
 
-{{{
- //str = Date.months[this.getMonth()] + " " + this.getDate() + ", " + this.getFullYear();
+</script>
 
-}}}
-
-===Step 4===
-Paste the following code below what you just commented out:
-
-{{{
-str = this.getFullYear() + "-" + Date.padded2(this.getMonth() + 1) + "-" +Date.padded2(this.getDate()); 
 }}}
 
 This will return the date in the format YYYY-MM-DD.  Notice how the code says (this.getMonth() + 1).  Adding the 1 is necessary because the months are stored in an array index at 0.  So January is 00 instead of 01, and adding 1 fixes that.
