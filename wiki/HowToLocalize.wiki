@@ -26,7 +26,7 @@ Here is one way to localize.  Somewhere in your page, before displaying your cal
 <%= calendar_date_select_tag "my_field", nil %>
 }}}
 
-== Translation using gettext ==-
+== Translation using gettext ===
 
 If you're using gettext, you can do the following:
 
