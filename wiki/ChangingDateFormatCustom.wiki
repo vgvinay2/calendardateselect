@@ -38,3 +38,9 @@ Date.parseFormattedString = function(string)
 See this file for an example of what to implement
 
 /public/javascripts/calendar_date_select_format_hyphen_ampm.js
+
+== Conclusion ==
+
+If you make your own custom date format, and want to be super cool and contribute it, post it to the google groups mailing list:
+
+http://groups.google.com/group/calendar_date_select
