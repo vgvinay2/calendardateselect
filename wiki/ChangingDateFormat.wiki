@@ -3,10 +3,11 @@
 
 Changing the date format involves modifying Javascript to both be able to interpret and output the date, plus instructing the server to render dates in conformance with the given format.  CalendarDateSelect v1.6 makes this process a snap!
 
-Current available date formats are:
+== Current available date formats ==
 
-  * :natural - January 2, 2007 5:30 pm
-  * :hypen_ampm - 2007-01-02 5:30 pm
+|| name || format ||
+|| :natural || January 2, 2007 5:30 pm ||
+|| :hypen_ampm || 2007-01-02 5:30 pm ||
 
 == How to do it ==
 
