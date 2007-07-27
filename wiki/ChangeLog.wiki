@@ -1,3 +1,16 @@
+==Version 1.6.0==
+
+July 27 2007
+
+  * Now MUCH easier to change date formats!  See ChangingDateFormat for details.
+  * Opera button labels fixed
+  * Calendar "flicker" fixed when displaying popup window.
+  * JS error 106 being thrown - fixed
+  * Bug fixes relating to calendar date select deciding whether to display above or below an element on a page
+  * XHTML compliance issue resolved - image had an invalid "id"
+  * Disabled/readonly elements can't be updated
+
+
 ==Version 1.5.2==
 
   * onchange event handler now supported.
