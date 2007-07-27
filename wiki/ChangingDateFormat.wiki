@@ -21,4 +21,4 @@ If you are using *<%= calendar_date_select_includes %>* in your layout, you're a
 
 == Implementing your own date formats ==
 
-ChangingDateFormatTheHardWay
+ChangingDateFormatCustom
