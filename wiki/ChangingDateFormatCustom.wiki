@@ -1,0 +1,40 @@
+#summary If you need to make your own custom date format, here's what you need to do:
+
+== One ==
+
+in environment.rb, add the following lines:
+
+{{{
+
+CalendarDateSelect.formats[:my_custom] = {
+# Here's the code to pass to Date#strftime
+  :date => "%Y-%m-%d",
+  :time => " %I:%M %p",  # notice the space before time.  If you want date and time to be seperated with a space, put the leading space here.
+
+  :javascript_include => "calendar_date_select_format_my_custom"
+}
+
+}}}
+
+== Two ==
+
+Now, create the following javascript file:
+
+/public/javascripts/calendar_date_select_format_my_custom.js
+
+{{{
+Date.prototype.toFormattedString = function(include_time)
+{
+  // Implement me
+}
+
+Date.parseFormattedString = function(string) 
+{
+  // Implement me
+}
+
+}}}
+
+See this file for an example of what to implement
+
+/public/javascripts/calendar_date_select_format_hyphen_ampm.js
