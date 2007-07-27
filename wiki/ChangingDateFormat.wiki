@@ -5,7 +5,7 @@ Changing the date format involves modifying Javascript to both be able to interp
 
 == Current available date formats ==
 
-|| name || format ||
+|| *Name* || *Format* ||
 || :natural || January 2, 2007 5:30 pm ||
 || :hypen_ampm || 2007-01-02 5:30 pm ||
 
