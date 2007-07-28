@@ -1,23 +1,19 @@
 #summary How to change the date format
 #labels Phase-Implementation,Phase-Deploy
 
-Changing the date format involves modifying Javascript to both be able to interpret and output the date, plus instructing the server to render dates in conformance with the given format.  CalendarDateSelect v1.6 makes this process a snap!
-
 == Current available date formats ==
 
 || *Name* || *Format* ||
 || :natural || January 2, 2007 5:30 pm ||
-|| :hypen_ampm || 2007-01-02 5:30 pm ||
-
-== How to do it ==
+|| :hyphen_ampm || 2007-01-02 5:30 pm ||
 
 In your environment.rb file, at the bottom, insert the following line:
 
 {{{
-CalendarDateSelect.format = :natural
+CalendarDateSelect.format = :natural # or :hyphen_ampm
 }}}
 
-If you are using *<%= calendar_date_select_includes %>* in your layout, you're all done!  Otherwise, you'll have to manually include the supplementary javascript file.
+( note - this only works when you are using using *<%= calendar_date_select_includes %>* in your layout )
 
 == Implementing your own date formats ==
 
