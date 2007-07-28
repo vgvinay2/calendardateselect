@@ -37,7 +37,7 @@ Date.parseFormattedString = function(string)
 
 See this file for an example of what to implement
 
-/public/javascripts/calendar_date_select_format_hyphen_ampm.js
+[http://calendardateselect.googlecode.com/svn/tags/calendar_date_select/public/javascripts/calendar_date_select_format_hyphen_ampm.js] /public/javascripts/calendar_date_select_format_hyphen_ampm.js
 
 == Conclusion ==
 
