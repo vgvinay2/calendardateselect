@@ -15,6 +15,7 @@ July 27 2007
 
 ==Version 1.5.2==
 
+July 12 2007
   * onchange event handler now supported.
   * detects to see if prototype is loaded.  If not, shows error message
   * ability to hide "buttons"
