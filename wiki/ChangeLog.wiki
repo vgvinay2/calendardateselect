@@ -9,6 +9,7 @@ July 27 2007
   * Bug fixes relating to calendar date select deciding whether to display above or below an element on a page
   * XHTML compliance issue resolved - image had an invalid "id"
   * Disabled/readonly elements can't be updated
+    * (note, if you wish to prevent user from inputting a date without the date picker, use the "embedded" option.  See [http://restatesman.com/static/calendar/ demo] for example).
   * Changes/cleanups submitted by Steve Madsen.  If you see Steve, tell him what a great guy he is!
     * Ability to change calendar image via CalendarDateSelect.image=
     * cleaning up on how input tags are rendered
