@@ -1,3 +1,4 @@
+#labels Featured
 = CalendarDateSelect documentation =
 
  * [http://www.restatesman.com/static/calendar/ Demo site]
