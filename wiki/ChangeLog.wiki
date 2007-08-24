@@ -1,3 +1,11 @@
+==Version 1.6.1==
+
+Aug 24 2007
+
+  * Serious javascript bug when using "hyphen_ampm" format fixed.  (Was only working in Firefox browsers with firebug installed)
+  * Added a bunch of new callbacks: before_show, before_close, after_show, after_close, after_navigate. (see the demo for details)
+
+
 ==Version 1.6.0==
 
 July 27 2007
