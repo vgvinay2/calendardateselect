@@ -1,3 +1,11 @@
+==Version 1.6.2==
+
+Aug 24 2007
+
+  * update calendar date select to not rely on dom_id's anymore ( and no longer automatically changes the dom_id for your input fields )
+
+  * applied Steve Madsen's patch for not blanking out invalid dates.
+
 ==Version 1.6.1==
 
 Aug 24 2007
