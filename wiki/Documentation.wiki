@@ -1,13 +1,11 @@
 #labels Featured
-= CalendarDateSelect documentation =
-
  * [http://www.restatesman.com/static/calendar/ Demo site]
 
  * [ChangingDateFormat Changing the date format]
 
  * [HowToLocalize How to localize]
 
-== Third-party tutorials ==
+=== Third-party tutorials ===
 
 If things still aren't making sense, try one of the following fabulous third-party tutorials
 
