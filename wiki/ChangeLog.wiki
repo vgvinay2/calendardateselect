@@ -1,3 +1,9 @@
+==Version 1.7.1==
+
+Aug 29 2007
+
+  * Rendering options weren't being passed to the input control (like :style, :class, etc.)
+
 ==Version 1.7.0==
 
 Aug 24 2007
