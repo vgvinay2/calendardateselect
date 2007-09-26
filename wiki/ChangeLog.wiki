@@ -1,3 +1,13 @@
+==Version 1.8.0==
+
+September 26 2007
+  * Bugfix - Safari 2 issue fixed (was interpreting "" as January 1, 1969)
+  * CSS overhaul - removed buttons and replaced with links.  Cleaned up CSS.  See CSSDiff_1_7_0__1_8_0 for a diff.
+  * :popup => :force (force the user to select a date)
+  * :time => "mixed" - You can now create a calendar control that allows a user to select "all day" or a specific time!
+  * :month_year => "label" - Replace the clunky dropdowns with a text.
+  * Some internal "gardening" on the code
+
 ==Version 1.7.1==
 
 Aug 29 2007
