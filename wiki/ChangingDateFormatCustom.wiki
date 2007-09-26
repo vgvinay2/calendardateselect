@@ -35,6 +35,10 @@ Date.parseFormattedString = function(string)
 
 }}}
 
+See this file for an example of what to implement
+
+[http://calendardateselect.googlecode.com/svn/tags/calendar_date_select/public/javascripts/calendar_date_select/format_hyphen_ampm.js /public/javascripts/calendar_date_select/format_hyphen_ampm.js]
+
 == Three ==
 
 Don't forget to also include:
@@ -44,11 +48,6 @@ CalendarDateSelect.format = :my_custom
 }}}
 
 in your environment.rb file.  If you set this up properly, and include your javascripts using <%= calendar_date_select_includes %>, all your javascripts will be properly loaded.
-
-
-See this file for an example of what to implement
-
-[http://calendardateselect.googlecode.com/svn/tags/calendar_date_select/public/javascripts/calendar_date_select/format_hyphen_ampm.js /public/javascripts/calendar_date_select/format_hyphen_ampm.js]
 
 == Conclusion ==
 
