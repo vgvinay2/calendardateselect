@@ -1,3 +1,7 @@
+==Version 1.8.1==
+September 27 2007
+  * 1.8.0 was rushed.  There were a bunch of bugs that cropped up immediately.  This deploy includes JavaScript unit testing using the scriptaculous unit test framework! (plugin must be installed into a rails project to run).  These unit tests are going to greatly improve the reliability of CalendarDateSelect releases.
+
 ==Version 1.8.0==
 
 September 26 2007
