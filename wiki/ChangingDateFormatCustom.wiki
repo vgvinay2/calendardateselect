@@ -6,7 +6,7 @@ in environment.rb, add the following lines:
 
 {{{
 
-CalendarDateSelect.formats[:my_custom] = {
+CalendarDateSelect::FORMATS[:my_custom] = {
 # Here's the code to pass to Date#strftime
   :date => "%Y-%m-%d",
   :time => " %I:%M %p",  # notice the space before time.  If you want date and time to be seperated with a space, put the leading space here.
