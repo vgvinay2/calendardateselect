@@ -1,3 +1,8 @@
+==Version 1.8.2==
+October 3 2007
+  * CDS was crashing when binding to a nil object.  Bug fix + test case 
+
+
 ==Version 1.8.1==
 September 27 2007
   * 1.8.0 was rushed.  There were a bunch of bugs that cropped up immediately.  This deploy includes JavaScript unit testing using the scriptaculous unit test framework! ([http://www.restatesman.com/calendar_date_select/js_test/functional/cds_test.html click here to run the tests on the latest trunk version]).  These unit tests are going to greatly improve the reliability of CalendarDateSelect releases.
