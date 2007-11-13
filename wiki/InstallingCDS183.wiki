@@ -1,0 +1,10 @@
+Compelled to use prototype < 1.6.0?  Don't worry, CalendarDateSelect 1.8.3 is stable and feature complete.
+
+However, CalendarDateSelect 1.8.3 will be the last release supporting 1.5.1.1, and will no longer be maintained/developed (Let's all pray that the test coverage is good enough :) ).  If someone else wishes to maintain it, so let it be.
+
+To install it:
+
+{{{
+script/plugin install http://calendardateselect.googlecode.com/svn/tags/RELEASE_1_8_3/
+mv vendor/plugins/RELEASE_1_8_3 vendor/plugins/calendar_date_select
+}}}
