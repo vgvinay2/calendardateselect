@@ -1,3 +1,28 @@
+==Version 1.8.3==
+Nov 12, 2007
+
+	* Improved close methods:
+	  * Added "OK" button at the bottom
+		* Double clicking a day closes the calendar (not in IE, though... because IE is everyone's favorite browser to program for)
+		* Escape key closes calendar
+	* Added optional close button at the top, which is hidden by default.  Don't use this unless you really need it, because it may disappear in the future.
+	* Don't focus a hidden element
+	* Navigate down to child input element if exists (in case a div tag is passed in).  Resolves problems when input control is wrapped with a error div.  Test cases
+	* Allow specific year ranges (pass in an array)
+	  * restrict year navigation inside of a non-flexible range
+	  * test case to check auto-repopulating of flexibleYearRanges.
+	  * test case to check boundaries of nonFlexibleYearRanges.
+		* Ability to pass in :year_range => 5.years.ago..0.years.ago to calendar_date_select (ruby)
+	* Updated test cases
+	* Bugfix for duplicate days that were occuring across day-light-saving-time boundaries
+	* Added format_american.js (thanks, Wes Hays)
+	* Added format_italian.js (thanks, Bigonazzi)
+	* Added format_euro_24hr.js (thanks, James Silberbauer)
+	* Bugfix for Konqueror - Was showing blank white box for popup window - had to do with Iframe hack.
+	* Code-refactoring, clean up, breaking down methods, making the code easier to understand and extend.
+	* Added new stylesheet definition: .calendar_date_select .cds_header a.close { display: none}.  Update your custom stylesheet with this new definition.
+	
+	
 ==Version 1.8.2==
 October 3 2007
   * CDS was crashing when binding to a nil object.  Bug fix + test case 
