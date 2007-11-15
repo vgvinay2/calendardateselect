@@ -11,7 +11,7 @@ CalendarDateSelect::FORMATS[:my_custom] = {
   :date => "%Y-%m-%d",
   :time => " %I:%M %p",  # notice the space before time.  If you want date and time to be seperated with a space, put the leading space here.
 
-  :javascript_include => "calendar_date_select_format_my_custom"
+  :javascript_include => "format_my_custom"
 }
 
 }}}
