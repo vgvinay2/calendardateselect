@@ -16,6 +16,27 @@ Forces the user to use the popup calendar by making it's text-box read-only and 
   <%= calendar_date_select_tag "name", "2007-01-01", :force => true %>
 }}}
 
+== :month_year ==
+
+Customize the month and year selectors at the top of the control.
+
+Valid options:
+ * "dropdowns" (default) - Use a separate dropdown control for both the month and year
+ * "label" - Use static text to show the month and the year.
+
+{{{
+ <%= calendar_date_select_tag "month_year_selector_label", "", :month_year => "label" %>
+}}}
+
+== :hidden ==
+
+Use a hidden element instead of a textbox for a popup calendar.  Not compatible with :embedded => true
+
+{{{
+ <span id='cds_value' /> <%= calendar_date_select_tag "month_year_selector_label", "", :hidden => "true", :onchange => "$('cds_value').update($F(this));" %>
+}}}
+
+
 == :time ==
 
 Show time in the controls.  There's three options:
