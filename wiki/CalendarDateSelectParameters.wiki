@@ -1,0 +1,48 @@
+Most of the parameters here are shown on the [http://www.restatesman.com/static/calendar/ demo] page.
+
+== :embedded ==
+
+Put the calendar straight into the form, rather than using a popup type of form.
+
+{{{
+  <%= calendar_date_select_tag "name", "2007-01-01", :embedded => true %>
+}}}
+
+== :time ==
+
+Show time in the controls.  There's three options:
+
+ * true - show an hour/minute selector.
+ * false - don't show an hour/minute selector.
+ * "mixed" - Show an hour/minute selector, but include a "all day" option - allowing them to choose whether or not to specify a time.
+
+== :callbacks ==
+
+The following callbacks are available:
+
+ * before_show / after_show
+ * before_close / after_close
+ * after_navigate - Called when navigating to a different month. Passes first parameter as a date object refering to the current month viewed
+ * onchange - Called when the form input value changes 
+
+{{{
+<%= calendar_date_select_tag "event_demo", "", 
+  :before_show => "log('Calendar Showing');" ,
+  :after_show => "log('Calendar Shown');" ,
+  :before_close => "log('Calendar closing');" ,
+  :after_close => "log('Calendar closed');",
+  :after_navigate => "log('Current month is ' + (param.getMonth()+1) + '/' + (param.getFullYear()));",
+  :onchange => "log('value changed to - ' + $F(this));"
+%>
+
+}}}
+
+All callbacks are executed within the context of the target input element.  If you'd like to access the CalendarDateSelect object itself, you can access it via "this.calendar_date_select".
+
+For example:
+
+{{{
+
+<%= calendar_date_select_tag "event_demo", "", :after_navigate => "alert('The current selected month is ' + this.calendar_date_select.selected_date.getMonth());" ,
+
+}}}
