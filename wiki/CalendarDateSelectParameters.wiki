@@ -46,6 +46,18 @@ Show time in the controls.  There's three options:
  * {{{false}}} - don't show an hour/minute selector.
  * {{{"mixed"}}} - Show an hour/minute selector, but include a "all day" option - allowing them to choose whether or not to specify a time.
 
+== :year_range == 
+
+Limit the year range.  You can pass in an array or range of ruby Date/Time objects or FixNum's.
+
+{{{
+<%= calendar_date_select_tag "e_date", nil, :year_range => 10.years.ago..0.years.from_now %>
+<%= calendar_date_select_tag "e_date", nil, :year_range => [0.years.ago, 10.years.from_now] %>
+<%= calendar_date_select_tag "e_date", nil, :year_range => 2000..2007 %>
+<%= calendar_date_select_tag "e_date", nil, :year_range => [2000, 2007] %>
+
+}}}
+
 == CALLBACKS ==
 
 The following callbacks are available:
