@@ -16,7 +16,7 @@ Show time in the controls.  There's three options:
  * false - don't show an hour/minute selector.
  * "mixed" - Show an hour/minute selector, but include a "all day" option - allowing them to choose whether or not to specify a time.
 
-== :callbacks ==
+== CALLBACKS ==
 
 The following callbacks are available:
 
