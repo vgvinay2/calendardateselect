@@ -12,9 +12,9 @@ Put the calendar straight into the form, rather than using a popup type of form.
 
 Show time in the controls.  There's three options:
 
- * true - show an hour/minute selector.
- * false - don't show an hour/minute selector.
- * "mixed" - Show an hour/minute selector, but include a "all day" option - allowing them to choose whether or not to specify a time.
+ * {{{true}}} - show an hour/minute selector.
+ * {{{false}}} - don't show an hour/minute selector.
+ * {{{"mixed"}}} - Show an hour/minute selector, but include a "all day" option - allowing them to choose whether or not to specify a time.
 
 == CALLBACKS ==
 
