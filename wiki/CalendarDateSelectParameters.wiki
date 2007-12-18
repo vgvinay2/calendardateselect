@@ -13,7 +13,7 @@ Put the calendar straight into the form, rather than using a popup type of form.
 Forces the user to use the popup calendar by making it's text-box read-only and causing calendar_date_select to override it's default behavior of not allowing selection of a date on a target element that is read-only.
 
 {{{
-  <%= calendar_date_select_tag "name", "2007-01-01", :force => true %>
+  <%= calendar_date_select_tag "name", "2007-01-01", :popup => "force" %>
 }}}
 
 == :hidden ==
