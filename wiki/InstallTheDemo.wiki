@@ -1,0 +1,18 @@
+== Demo App ==
+
+The demo app shows off a great deal of the functionality of the calendar.  It's easy to get going.
+
+You'll need the sqlite3-ruby gem:
+
+{{{
+sudo gem install sqlite3-ruby
+}}}
+
+To install and runn the demo
+
+{{{
+svn co http://calendardateselect.googlecode.com/svn/cds_demo
+cd cds_demo
+rake db:migrate
+script/server
+}}}
