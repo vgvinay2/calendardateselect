@@ -1,5 +1,5 @@
 <%
-CalendarDateSelect.format = (params[:format]||"natural").to_sym
+CalendarDateSelect.format = (params[:fmt]||"natural").to_sym
 params[:style]||="red"
 params[:style]=nil if params[:style]=="default"
 %>
@@ -43,7 +43,7 @@ params[:style]=nil if params[:style]=="default"
         </div>
         <div style="text-align:center">
           Date Format:
-          <%= select_tag "format", options_for_select([["natural - January 2, 2007 5:00pm", "natural"], ["hyphen_ampm - 2007-02-01 5:00pm", "hyphen_ampm"], ["finnish - 1.2.2007 17:00", "finnish"], ["american - 12/31/2000 5:00 pm", "american"], ["euro_24hr - 01 January 2000 17:00", "euro_24hr"]], params[:format]),  :onchange => "$('options_form').submit();" %>
+          <%= select_tag "fmt", options_for_select([["natural - January 2, 2007 5:00pm", "natural"], ["hyphen_ampm - 2007-02-01 5:00pm", "hyphen_ampm"], ["finnish - 1.2.2007 17:00", "finnish"], ["american - 12/31/2000 5:00 pm", "american"], ["euro_24hr - 01 January 2000 17:00", "euro_24hr"]], params[:fmt]),  :onchange => "$('options_form').submit();" %>
         </div>
       </form>
       <% tabset :id => "tabs8", :selected => params[:tab]||"embedded" do %>
