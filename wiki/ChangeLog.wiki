@@ -1,1 +1,1 @@
-[http://gitorious.org/projects/git-tmbundle/repos/mainline/blobs/master/CHANGELOG Moved]
+Moved over [http://gitorious.org/projects/git-tmbundle/repos/mainline/blobs/master/CHANGELOG here.]
