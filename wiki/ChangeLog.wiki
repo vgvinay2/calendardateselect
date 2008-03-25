@@ -1,1 +1,1 @@
-Moved over [http://gitorious.org/projects/git-tmbundle/repos/mainline/blobs/master/CHANGELOG here.]
+Moved over [http://gitorious.org/projects/calendar_date_select/repos/mainline/blobs/master/CHANGELOG here.]
