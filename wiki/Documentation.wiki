@@ -12,3 +12,5 @@
 If things still aren't making sense, try one of the following fabulous third-party tutorials
 
  * http://blog.beigesunshine.com/2007/08/08/extremely-simple-calendar-integration-for-rails/
+
+ * http://ianli.org/site/HowTo/UseCalendarDateSelectRailsPlugin
