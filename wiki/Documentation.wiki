@@ -3,15 +3,17 @@
 
  * [ChangingDateFormat Changing the date format] - A small tutorial on how to use a different format other than the default.  Also, how to implement your own date format, if one provided does not meet your needs.
 
- * [HowToLocalize How to localize] - If you need to change languages, here's how to approach it.
-
  * [CalendarDateSelectParameters CalendarDateSelect Parameters] a list of all of the parameters CalendarDateSelect understands
+
+ * JavascriptDocumentation
+
+Specific how tos:
+
+ * [HowToLocalize How to localize] - If you need to change languages, here's how to approach it.
 
  * [HowToDisableDates]
 
  * HowToChangeTheFirstDayOfTheWeek
-
- * JavascriptDocumentation
 
 === Third-party tutorials ===
 
