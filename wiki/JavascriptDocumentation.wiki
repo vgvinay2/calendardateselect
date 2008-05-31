@@ -1,0 +1,2 @@
+Here are some examples how to do things with calendar_date_select.js, without using the rails helpers:
+
