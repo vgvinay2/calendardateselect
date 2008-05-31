@@ -1,5 +1,5 @@
 #labels Featured
- * [http://www.restatesman.com/static/calendar/ Demo site] - Lots of examples on how to use the plugin
+ * InstallTheDemo - the fastest way to try out calendar date select.  Requires rails 2.0 or greater.
 
  * [ChangingDateFormat Changing the date format] - A small tutorial on how to use a different format other than the default.  Also, how to implement your own date format, if one provided does not meet your needs.
 
