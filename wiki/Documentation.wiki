@@ -7,6 +7,8 @@
 
  * [CalendarDateSelectParameters CalendarDateSelect Parameters] a list of all of the parameters CalendarDateSelect understands
 
+ * [HowToDisableDates]
+
 === Third-party tutorials ===
 
 If things still aren't making sense, try one of the following fabulous third-party tutorials
