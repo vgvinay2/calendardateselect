@@ -9,6 +9,8 @@
 
  * [HowToDisableDates]
 
+ * HowToChangeTheFirstDayOfTheWeek
+
 === Third-party tutorials ===
 
 If things still aren't making sense, try one of the following fabulous third-party tutorials
