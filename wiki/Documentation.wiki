@@ -7,7 +7,7 @@
 
  * JavascriptDocumentation
 
-Specific how tos:
+Specific how-tos:
 
  * [HowToLocalize How to localize] - If you need to change languages, here's how to approach it.
 
