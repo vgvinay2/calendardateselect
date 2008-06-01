@@ -21,16 +21,19 @@ All callbacks are executed from the context of the target form element (meaning,
 
 
 {{{
-	this.calendar_date_select; // Accesses the instance of the CalendarDateSelect control bound to this control
-	this.calendar_date_select.date; // A Date object representing the beginning of the current month viewed
-	this.calendar_date_select.selected_date; // A Date object representing the current date selected.  NULL when no date selected.
+this.calendar_date_select; // Accesses the instance of the CalendarDateSelect control bound to this control
+this.calendar_date_select.date; // A Date object representing the beginning of the current month viewed
+this.calendar_date_select.selected_date; // A Date object representing the current date selected.  NULL when no date selected.
+	
+{
+	onchange: function() { alert('changed'); },  // Tell calendar date select to execute code when the date value is changed.  By default, this inherits the onchange property set on the target form element.  If you're using an editable text box for a target form element, you'd be well to use the default. 
+	after_navigate: function() { /* js code here */ } }, // Executed when the month is changed.  You could put an !AJAX hook here to update the calendar to highlight certain dates on the picker, or something. 
+	before_show: function() { /* js code here */ } }, // You could use this to change the month / year / form value before calendar date select is shown.
+	after_show: function() { /* js code here */ } },
+	before_close: function() { /* js code here */ } },
+	after_close: function() { /* js code here */ } }
+}
 }}}
 
- * {{{onchange: function() { alert('changed'); }  // Tell calendar date select to execute code when the date value is changed.  By default, this inherits the onchange property set on the target form element.  If you're using an editable text box for a target form element, you'd be well to use the default. }}}
- * {{{after_navigate: function() { /* js code here */ } } // Executed when the month is changed.  You could put an !AJAX hook here to update the calendar to highlight certain dates on the picker, or something. }}}
- * {{{before_show: function() { /* js code here */ } } // You could use this to change the month / year / form value before calendar date select is shown. }}}
- * {{{after_show: function() { /* js code here */ } }}}}
- * {{{before_close: function() { /* js code here */ } }}}}
- * {{{after_close: function() { /* js code here */ } }}}}
 
 Here are some examples how to do things with calendar_date_select.js, without using the rails helpers:
