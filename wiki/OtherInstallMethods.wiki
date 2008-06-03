@@ -1,0 +1,11 @@
+==Install as a git submodule==
+
+{{{
+git submodule add git://github.com/timcharper/calendar_date_select.git vendor/plugins/calendar_date_select
+}}}
+
+==Not using rails 2.1?==
+
+{{{
+git clone git://github.com/timcharper/calendar_date_select.git vendor/plugins/calendar_date_select && rm -rf vendor/plugins/calendar_date_select/.git
+}}}
