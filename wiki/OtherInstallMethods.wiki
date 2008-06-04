@@ -9,3 +9,11 @@ git submodule add git://github.com/timcharper/calendar_date_select.git vendor/pl
 {{{
 git clone git://github.com/timcharper/calendar_date_select.git vendor/plugins/calendar_date_select && rm -rf vendor/plugins/calendar_date_select/.git
 }}}
+
+==Don't have git?==
+
+Packages exist for most OS's (including Windows and Mac OSX).  Go [http://git.or.cz/ here] find one.
+
+==Don't want to install git?==
+
+You can download CDS from the downloads section.  Both tar.bz2 and zip formats are available.
