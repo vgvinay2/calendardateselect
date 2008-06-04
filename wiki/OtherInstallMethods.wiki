@@ -16,4 +16,4 @@ Packages exist for most OS's (including Windows and Mac OSX).  Go [http://git.or
 
 ==Don't want to install git?==
 
-You can download CDS from the downloads section.  Both tar.bz2 and zip formats are available.
+You can download CDS from the [http://code.google.com/p/calendardateselect/downloads/list downloads] section.  Both tar.bz2 and zip formats are available.
