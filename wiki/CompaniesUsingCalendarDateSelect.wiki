@@ -15,4 +15,8 @@
 
   * [http://www.tickex.com/ Tickex]
 
+  * [http://ofbiz.apache.org/] - The Apache Open for Business Project (Apache OFBiz)
+
+  * [http://jetrecord.com/ Jetrecord]
+
 To add yourself, post a comment below.
