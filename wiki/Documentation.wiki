@@ -13,6 +13,8 @@ Specific how-tos:
 
  * [HowToDisableDates]
 
+ * [HowToSetDefaultOptions]
+
  * HowToChangeTheFirstDayOfTheWeek
 
 === Third-party tutorials ===
