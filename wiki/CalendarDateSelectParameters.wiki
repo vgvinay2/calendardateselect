@@ -8,14 +8,6 @@ Put the calendar straight into the form, rather than using a popup type of form.
   <%= calendar_date_select_tag "name", "2007-01-01", :embedded => true %>
 }}}
 
-== :force ==
-
-Forces the user to use the popup calendar by making it's text-box read-only and causing calendar_date_select to override it's default behavior of not allowing selection of a date on a target element that is read-only.
-
-{{{
-  <%= calendar_date_select_tag "name", "2007-01-01", :popup => "force" %>
-}}}
-
 == :hidden ==
 
 Use a hidden element instead of a text box for a pop up calendar.  Not compatible with :embedded => true.  You'll probably want to use an onchange callback to do something with the value.
@@ -24,6 +16,12 @@ Use a hidden element instead of a text box for a pop up calendar.  Not compatibl
 <span id='cds_value' /> 
 <%= calendar_date_select_tag "hidden_date_selector", "", :hidden => "true", :onchange => "$('cds_value').update($F(this));" %>
 }}}
+
+== :image ==
+
+Specify an alternative icon to use for the date picker.
+
+<%= calendar_date_select_tag "altered_image", "", :image => "/images/groovy.png" %>
 
 == :minute_interval ==
 
@@ -44,6 +42,14 @@ Valid options:
 
 {{{
  <%= calendar_date_select_tag "month_year_selector_label", "", :month_year => "label" %>
+}}}
+
+== :popup => 'force' ==
+
+Forces the user to use the popup calendar by making it's text-box read-only and causing calendar_date_select to override it's default behavior of not allowing selection of a date on a target element that is read-only.
+
+{{{
+  <%= calendar_date_select_tag "name", "2007-01-01", :popup => "force" %>
 }}}
 
 == :time ==
