@@ -21,7 +21,9 @@ Use a hidden element instead of a text box for a pop up calendar.  Not compatibl
 
 Specify an alternative icon to use for the date picker.
 
-<%= calendar_date_select_tag "altered_image", "", :image => "/images/groovy.png" %>
+To use /images/groovy.png:
+
+<%= calendar_date_select_tag "altered_image", "", :image => "groovy.png" %>
 
 == :minute_interval ==
 
