@@ -1,19 +1,5 @@
 == Demo App ==
 
-The demo app shows off a great deal of the functionality of the calendar.  It's easy to get going.
+The demo app shows off a great deal of the functionality of the calendar.  It's easy to get going.  For the repository and install instructions, head on over to:
 
-You'll need the sqlite3-ruby gem:
-
-{{{
-sudo gem install sqlite3-ruby
-}}}
-
-To install and run the demo:
-
-{{{
-# Clone the application 
-git clone git://github.com/timcharper/cds_demo.git
-cd cds_demo
-git submodule init && git submodule update  
-script/server
-}}}
+http://github.com/timcharper/calendar_date_select_demo/
