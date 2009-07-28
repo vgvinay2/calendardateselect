@@ -1,8 +1,4 @@
 #labels Featured
-  * [http://www.restatesman.com/ The Real Estatesman Group]
-
-  * [http://www.spinstudentlife.com/ Spin Student Life]
-
   * [http://www.bestechvideos.com/ Best Tech Videos]
 
   * [http://www.greenvoice.com Greenvoice]
@@ -22,5 +18,7 @@
  * [http://www.digitalnatives.hu/ Digital Natives]
 
  * [http://www.muehlgarten.com/Hotel Muehlgarten]
+
+ * [http://markupfactory.com/]
 
 To add yourself, post a comment below.
