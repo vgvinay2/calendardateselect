@@ -16,6 +16,6 @@ Packages exist for most OS's (including Windows and Mac OSX).  Go [http://git.or
 
 ==Don't want to install git?==
 
-You can download CDS from the [http://github.com/timcharper/calendar_date_selec/downloads] section.  Both tar.bz2 and zip formats are available.
+You can download CDS from the [http://github.com/timcharper/calendar_date_select/downloads/ Github] section.  Both tar.bz2 and zip formats are available.
 
 Just extract the package to your rails application, under {{{vendor/plugins}}}, so that the directory {{{vendor/plugins/calendar_date_select}}} exists.
