@@ -1,4 +1,4 @@
-Most of the parameters here are shown on the [http://www.restatesman.com/static/calendar/ demo] page.
+Most of the parameters here are shown on the [http://electronicholas.com/calendar demo] page.
 
 == :embedded ==
 
