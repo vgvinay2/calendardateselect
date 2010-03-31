@@ -52,6 +52,7 @@ Forces the user to use the popup calendar by making it's text-box read-only and 
 
 {{{
   <%= calendar_date_select_tag "name", "2007-01-01", :popup => "force" %>
+  <%= calendar_date_select_tag "month_year_selector_label", "", :popup => :force %>
 }}}
 
 == :time ==
