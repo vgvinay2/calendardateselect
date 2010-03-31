@@ -63,6 +63,16 @@ Show time in the controls.  There's three options:
  * {{{false}}} - don't show an hour/minute selector.
  * {{{"mixed"}}} - Show an hour/minute selector, but include a "all day" option - allowing them to choose whether or not to specify a time.
 
+== :default_time ==
+
+Specify default time using JavaScript Date object or Ruby Time object.
+
+{{{
+  <%= calendar_date_select_tag "p_date_and_time", nil, :time => true, :default_time => "new Date('Feb 18, 2007 5:45 pm')" %>
+  <%= calendar_date_select_tag "p_date_and_time", nil, :default_time => Time.parse("January 2, 2007 5:00 PM") %>
+  <%= calendar_date_select_tag "e_date_and_time", nil, :embedded => true, :default_time => Date.parse("January 2, 2007") %>
+}}}
+
 == :year_range == 
 
 Limit the year range.  You can pass in an array or range of ruby Date/Time objects or FixNum's.
