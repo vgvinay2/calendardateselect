@@ -87,7 +87,7 @@ Limit the year range.  You can pass in an array or range of ruby Date/Time objec
 
 == :valid_date_check ==
 
-Documented in [http://code.google.com/p/calendardateselect/wiki/HowToDisableDates HowToDisableDates].
+Documented in [HowToDisableDates HowToDisableDates].
 
 == CALLBACKS ==
 
