@@ -1,6 +1,6 @@
 [http://code.google.com/p/calendardateselect/ Project Home]
 
-There is some rough documentation here: Documentation
+There is some rough documentation here: [Documentation Documentation]
 
 The DEMO is the largest source for documentation.  See the [InstallTheDemo demo]
 
