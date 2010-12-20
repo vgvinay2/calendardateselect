@@ -1,19 +1,19 @@
 #labels Featured
-  * [http://www.bestechvideos.com/ Best Tech Videos]
+ * [http://www.bestechvideos.com/ Best Tech Videos]
 
-  * [http://www.greenvoice.com Greenvoice]
+ * [http://www.greenvoice.com Greenvoice]
 
-  * [http://www.sharesight.co.nz/ Sharesight]
+ * [http://www.sharesight.co.nz/ Sharesight]
 
-  * [http://whichweekend.com WhichWeekend]
+ * [http://whichweekend.com WhichWeekend]
 
-  * [http://www.opensourceconnections.com Open Source Connections]
+ * [http://www.opensourceconnections.com Open Source Connections]
 
-  * [http://www.tickex.com/ Tickex]
+ * [http://www.tickex.com/ Tickex]
 
-  * [http://ofbiz.apache.org/] - The Apache Open for Business Project (Apache OFBiz)
+ * [http://ofbiz.apache.org/] - The Apache Open for Business Project (Apache OFBiz)
 
-  * [http://jetrecord.com/ Jetrecord]
+ * [http://jetrecord.com/ Jetrecord]
 
  * [http://www.digitalnatives.hu/ Digital Natives]
 
@@ -40,5 +40,9 @@
  * [http://www.rentlikeachampion.com/ Rent Like a Champion]
 
  * [http://magnetic.is/ Magnetic]
+
+ * [http://www.hittaflyget.se/ HittaFlyget]
+
+ * [http://www.tripedy.com/ Tripedy]
 
 To add yourself, post a comment below.
