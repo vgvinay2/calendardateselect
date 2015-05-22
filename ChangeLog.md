@@ -1,0 +1,1 @@
+Moved over [here.](http://gitorious.org/projects/calendar_date_select/repos/mainline/blobs/master/CHANGELOG)
